@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Account</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="account.css">
+    </head>
+    <body>
+        <!---Log In Form--->
+
+        <div class="row">
+            <div class="forms">
+
+                <div class="form login">
+                    <span class="title">Login</span>
+
+                    <form action="Welcome.html">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter Your Username/Email" required>
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter Your Password" required>
+                            <i class="fa fa-lock icon"></i>
+                            <i class="fa fa-eye-slash showHidePw" ></i>
+                        </div>
+
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logCheck">
+                                <label for="logCheck" class="text">Remember Me</label>
+                            </div>
+                        </div>
+
+                        <button class="button">Login</button>
+                    </form>
+
+                    <div class="login-signup">
+                        <span class="text">Not A Member?
+                            <a href="#" class="text signup-link">Sign Up Now!</a>
+                        </span> 
+                    </div>
+                </div>
+<!---Sign Up Form--->
+                <div class="form signup">
+                    <span class="title">Sign Up</span>
+
+                    <form action="Welcome.html">
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter Your Name" required>
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Enter Your Email" required>
+                            <i class="fa fa-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Enter Password" required>
+                            <i class="fa fa-lock icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Confirm Password" required>
+                            <i class="fa fa-lock icon"></i>
+                            <i class="fa fa-eye-slash showHidePw" ></i>
+                        </div>
+
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="sigCheck">
+                                <label for="sigCheck" class="text">I Accept All Terms & Conditions</label>
+                            </div>
+
+                            <a href="T&C.html" target="_blank" class="text">Terms & Conditions</a>
+                        </div>
+
+                        <button class="button">Sign Up</button>
+                    </form>
+
+                    <div class="login-signup">
+                        <span class="text">Already A Member?
+                            <a href="#" class="text login-link">Login Now!</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<!------JavaScript for Animation------>
+<script>
+    const row=document.querySelector(".row"),
+        pwShowHide=document.querySelectorAll(".showHidePw"),
+        pwFields=document.querySelectorAll(".password");
+        signUp=document.querySelector(".signup-link");
+        login=document.querySelector(".login-link");
+
+        //js code to show/hide password and change icon
+        pwShowHide.forEach(eyeIcon =>{
+            eyeIcon.addEventListener("click", ()=>{
+                pwFields.forEach(pwFields =>{
+                    if(pwFields.type ==="password"){
+                        pwFields.type ="text";
+
+                        pwShowHide.forEach(icon =>{
+                            icon.classList.replace("fa-eye-slash","fa-eye");
+                        })
+                    }else{
+                        pwFields.type ="password";
+
+                        pwShowHide.forEach(icon =>{
+                            icon.classList.replace("fa-eye","fa-eye-slash");
+                        })
+                    }
+                })
+            })
+        })
+
+        //js code to appear signup and login form
+        signUp.addEventListener("click", ( )=>{
+            row.classList.add("active");
+        });
+        login.addEventListener("click", ( )=>{
+            row.classList.remove("active");
+        });
+</script>
+    

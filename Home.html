@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Nike Home</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="Home.html"><img src="Images/nikelogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Product1.html">PRODUCT</a></li>
+                        <li><a href="Promotion.html">PROMOTION</a></li>
+                        <li><a id="cart-icon">CART</a></li>
+                        <li><a href="Account.html" target="_blank">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!--Content-->
+                <div class="cart-content">
+
+                </div>
+
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total:</div>
+                    <div class="total-price">RM0</div>
+                </div>
+
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                
+                <!--Cart Close-->
+                <i class="fa fa-times" id="close-cart"></i>
+            </div>
+            
+            <div class="text-box">
+                <h1>Nike. Just Do It.</h1>
+                <p>Where All Atheletes Belong.</p>
+            </div> 
+        </section>
+        
+        <h2>Celebrating 40 Years of Force</h2>
+        <p>Everywhere it's gone, it's changed the game.<br>Because Force has always been strongest when we do it together.</p>
+        <center>
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/fuxDvP61iRM" title="Air Force 1 | Join Forces: Celebrating 40 Years of Force | Official Trailer (E0) | Nike" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+<!----highlights slider---->
+
+        <h2>Happening Now</h2>
+        <p>New Week, New Style.</p>
+
+        <section class="high">
+            <div class="slider">
+                <div class="slide">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="st first">
+                        <img src="Images/nikehigh1.png">
+                    </div>
+
+                    <div class="st">
+                        <img src="Images/nikehigh2.png">
+                    </div>
+
+                    <div class="st">
+                        <img src="Images/nikehigh3.png">
+                    </div>
+
+                    <div class="st">
+                        <img src="Images/nikehigh4.png">
+                    </div>
+
+                    <div class="nav-auto">
+                        <div class="a-b1"></div>
+                        <div class="a-b2"></div>
+                        <div class="a-b3"></div>
+                        <div class="a-b4"></div>
+                    </div>
+                </div>
+
+                <div class="nav-m">
+                    <label for="radio1" class="m-btn"></label>
+                    <label for="radio2" class="m-btn"></label>
+                    <label for="radio3" class="m-btn"></label>
+                    <label for="radio4" class="m-btn"></label>
+                </div>
+            </div>
+        </section>
+
+<!----favourites---->
+
+        <h2>All-Time Favourites</h2>
+        <p>Simple, Unique, Old, But Gold.</p>
+
+        <section class="fav">
+            <div class="row">
+                <div class="fav-col">
+                    <img src="Images/nikefav1.png">
+                    <div class="layer">
+                        <a href = "AF1.html">AIR FORCE 1</a>
+                    </div>
+                </div>
+
+                <div class="fav-col">
+                    <img src="Images/nikefav2.png">
+                    <div class="layer">
+                        <a href = "Blazer.html">BLAZER</a>
+                    </div>
+                </div>
+
+                <div class="fav-col">
+                    <img src="Images/nikefav3.png">
+                    <div class="layer">
+                        <a href = "Pegasus.html">PEGASUS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-----Join Us----->
+
+        <section class="join">
+            <h1>BECOME A MEMBER
+                <br>Enjoy Benefits And Discounts As One Of Us!</h1>
+            <a href="Account.html" target="_blank" class="join-btn">Join Us</a>
+        </section>
+
+<!-----Footer----->
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download To Join Our Community.</p>
+                        <div class="app-logo">
+                            <a href="https://play.google.com/store/apps/details?id=com.nike.omega&hl=en&gl=US" target="_blank"><img src="Images/googleplay.png"></a>
+                            <a href="https://apps.apple.com/us/app/nike-shoes-apparel-stories/id1095459556" target="_blank"><img src="Images/appstore.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col-2">
+                        <img src="Images/nikelogo2.png">
+                        <p>Bringing Inspiration & Innovation To Every Athlete* In The World.
+                            <br>*If You Have A Body, You Are An Athlete.</p>
+                    </div>
+
+                    <div class="footer-col-3">
+                        <h3>Follow Us On Social Media</h3>
+                        <a href="https://www.facebook.com/nike/" target="_blank"><img src="Images/facebook.png"></a>
+                        <a href="https://www.instagram.com/nike/" target="_blank"><img src="Images/instagram.png"></a>
+                        <a href="https://twitter.com/nike/" target="_blank"><img src="Images/twitter.png"></a>
+                        <a href="https://www.youtube.com/nike/" target="_blank"><img src="Images/youtube.png"></a>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 - RJ/JH/ZL/JP</p>
+            </div>
+        </section>
+    
+        <!--Link js-->
+        <script src="cart.js"></script>
+
+    </body>
+</html>
+
+<!------JavaScript for Highlights Slider------>
+<script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+        document.getElementById('radio' + counter).checked=true;
+        counter++;
+        if(counter>4){
+            counter=1;
+        }
+    },5000);
+</script>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+    

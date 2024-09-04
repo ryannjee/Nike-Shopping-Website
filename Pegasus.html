@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Pegasus</title>
+        <link rel="stylesheet" href="Pegasus.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="Home.html"><img src="Images/nikelogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Product1.html">PRODUCT</a></li>
+                        <li><a href="Promotion.html">PROMOTION</a></li>
+                        <li><a id="cart-icon">CART</a></li>
+                        <li><a href="Account.html" target="_blank">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!--Content-->
+                <div class="cart-content">
+
+                </div>
+
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total:</div>
+                    <div class="total-price">RM0</div>
+                </div>
+
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                
+                <!--Cart Close-->
+                <i class="fa fa-times" id="close-cart"></i>
+            </div>
+        </section>
+
+        <div class = "peg">
+            <div class = "container">
+                <h1>Pegasus</h1>
+                <p class = "text-light">Faster is possible, but you’ve got to train for it. The Nike Air Zoom Pegasus 36, the Nike Zoom Pegasus Turbo 2, and Nike Air Zoom Pegasus 36 Trail shoes were all designed with the same purpose in mind—to help reach your speed goals.
+                    <br><br>Enjoy Your Time With NIKE, Thank You.
+                </p>
+
+                <div class = "product-items">
+                    <!-- 1 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(1).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Zoom Pegasus Premium White</a>
+                            <p class = "price">RM 579</p>
+                        </div>
+                    </div>
+                    <!-- end1 -->
+
+                    <!-- 2 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(2).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus 39 Pink</a>
+                            <p class = "price">RM 419</p>
+                        </div>
+                    </div>
+                    <!-- end2 -->
+
+                    <!-- 3 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(3).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus Turbo Zebra</a>
+                            <p class = "price">RM 659</p>
+                        </div>
+                    </div>
+                    <!-- end3 -->
+
+                    <!-- 4 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(4).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">React Pegasus GORE-TEX</a>
+                            <p class = "price">RM 709</p>
+                        </div>
+                    </div>
+                    <!-- end4 -->
+
+                    <!-- 5 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(5).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus Trail 3</a>
+                            <p class = "price">RM 549</p>
+                        </div>
+                    </div>
+                    <!-- end5 -->
+
+                    <!-- 6 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(6).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Zoom Pegasus 39 Hola Lou</a>
+                            <p class = "price">RM 579</p>
+                        </div>
+                    </div>
+                    <!-- end6 -->
+
+                    <!-- 7 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(7).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus Turbo Panther</a>
+                            <p class = "price">RM 659</p>
+                        </div>
+                    </div>
+                    <!-- end7 -->
+
+                    <!-- 8 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(8).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Zoom Pegasus 38 Black</a>
+                            <p class = "price">RM 499</p>
+                        </div>
+                    </div>
+                    <!-- end8 -->
+
+                    <!-- 9 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(9).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus FlyEase Blue</a>
+                            <p class = "price">RM 519</p>
+                        </div>
+                    </div>
+                    <!-- end9 -->
+
+                    <!-- 10 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(10).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus 39 Shield Grey</a>
+                            <p class = "price">RM 589</p>
+                        </div>
+                    </div>
+                    <!-- end10 -->
+
+                    <!-- 11 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(11).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Zoom Pegasus Premium Grey</a>
+                            <p class = "price">RM 579</p>
+                        </div>
+                    </div>
+                    <!-- end11 -->
+
+                    <!-- 12 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(12).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Zoom Pegasus 39 Green</a>
+                            <p class = "price">RM 519</p>
+                        </div>
+                    </div>
+                    <!-- 12 -->
+
+                    <!-- 13 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(13).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus 39 Shield White</a>
+                            <p class = "price">RM 589</p>
+                        </div>
+                    </div>
+                    <!-- end13 -->
+
+                    <!-- 14 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(14).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus FlyEase Army</a>
+                            <p class = "price">RM 519</p>
+                        </div>
+                    </div>
+                    <!-- end14 -->
+
+                    <!-- 15 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(15).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Zoom Pegasus 39 Soft Pink</a>
+                            <p class = "price">RM 519</p>
+                        </div>
+                    </div>
+                    <!-- end15 -->
+
+                    <!-- 16 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(16).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus 39 Orange</a>
+                            <p class = "price">RM 419</p>
+                        </div>
+                    </div>
+                    <!-- end16 -->
+                </div>
+            </div>
+        </div>
+        
+        <div class = "product-collection">
+            <div class = "container">
+                <div class = "product-collection-wrapper">
+                    <!-- product col left -->
+                    <div class = "product-col-left flex">
+                        <div class = "product-col-content">
+                            <h2 class = "sm-title">PRODUCTS</h2>
+                            <h2 class = "md-title">All Collection</h2>
+                            <p class = "text-light">Browse All Our Products With A Click!</p>
+                            <a href="Product1.html" class = "btn-dark">Shop Now</a>
+                        </div>
+                    </div>
+
+                    <!-- product col right -->
+                    <div class = "product-col-right">
+                        <div class = "product-col-r-top flex">
+                            <div class = "product-col-content">
+                                <h2 class = "sm-title">PROMO</h2>
+                                <h2 class = "md-title">Limited Sales</h2>
+                                <p class = "text-light">Wide Store Clearance Happening Now Up To 50% Off!</p>
+                                <a href="Promotion.html" class = "btn-dark">Shop Now</a>
+                            </div>
+                        </div>
+
+                        <div class = "product-col-r-bottom">
+                            <!-- left -->
+                            <div class = "flex">
+                                <div class = "product-col-content">
+                                    <h2 class = "sm-title">FAV</h2>
+                                    <h2 class = "md-title">Air Force 1</h2>
+                                    <a href= "AF1.html" class = "btn-dark">Shop AF1</a>
+                                </div>
+                            </div>
+
+                            <!-- right -->
+                            <div class = "flex">
+                                <div class = "product-col-content">
+                                    <h2 class = "sm-title">FAV</h2>
+                                    <h2 class = "md-title">Blazer</h2>
+                                    <a href="Blazer.html" class = "btn-dark">Shop Blazer</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Link js-->
+        <script src="cart.js"></script>
+
+    </body>
+</html>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>

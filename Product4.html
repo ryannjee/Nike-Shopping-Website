@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Product</title>
+        <link rel="stylesheet" href="product.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="Home.html"><img src="Images/nikelogo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="Product4.html">PRODUCT</a></li>
+                        <li><a href="Promotion.html">PROMOTION</a></li>
+                        <li><a id="cart-icon">CART</a></li>
+                        <li><a href="Account.html" target="_blank">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!--Cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+
+                <!--Content-->
+                <div class="cart-content">
+
+                </div>
+
+                <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total:</div>
+                    <div class="total-price">RM0</div>
+                </div>
+
+                <!--Buy Button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                
+                <!--Cart Close-->
+                <i class="fa fa-times" id="close-cart"></i>
+            </div>
+        </section>
+
+        <div class = "pro">
+            <div class = "container">       
+            <h1>Products</h1>
+            <p class = "text-light">Any Place. Any Time. Any Condition. Be Your Best Every Time With Nike Shoes And Clothing. The Official Website. Home Of Everything Nike.
+                <br>Shop The Latest Releases Today.
+                <br><br>Enjoy Your Time With NIKE, Thank You.
+            </p>
+    
+                <div class = "product-items">
+                    <!-- 23 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Promo(23).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Dunk High Retro</a>
+                            <p class = "price-before">RM 499</p>
+                            <p class = "price">RM 399</p>
+                        </div>
+
+                        <div class = "off-info">
+                            <h2 class = "sm-title">20% off</h2>
+                        </div>
+                    </div>
+                    <!-- end23 -->
+
+                    <!-- 8 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Promo(8).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air More Uptempo '96</a>
+                            <p class = "price-before">RM 689</p>
+                            <p class = "price">RM 549</p>
+                        </div>
+
+                        <div class = "off-info">
+                            <h2 class = "sm-title">20% off</h2>
+                        </div>
+                    </div>
+                    <!-- end8 -->
+
+                    <!-- 3 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Product(17).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Kids</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Sportswear Dress Pink</a>
+                            <p class = "price">RM 205</p>
+                        </div>
+                    </div>
+                    <!-- end3 -->
+
+                    <!-- 11 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(11).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Zoom Pegasus Premium Grey</a>
+                            <p class = "price">RM 579</p>
+                        </div>
+                    </div>
+                    <!-- end11 -->
+
+                    <!-- 5 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Product(18).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Easy Joggerpants</a>
+                            <p class = "price">RM 235</p>
+                        </div>
+                    </div>
+                    <!-- end5 -->
+
+                    <!-- 4 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Promo(4).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Dri-FIT Division TechKnit</a>
+                            <p class = "price-before">RM 259</p>
+                            <p class = "price">RM 209</p>
+                        </div>
+
+                        <div class = "off-info">
+                            <h2 class = "sm-title">19% off</h2>
+                        </div>
+                    </div>
+                    <!-- end4 -->
+
+                    <!-- 10 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/AF1(10).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Force 1 Pink/White</a>
+                            <p class = "price">RM 369<p>
+                        </div>
+                    </div>
+                    <!-- end10 -->
+
+                    <!-- 8 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Blazers(8).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Blazer Mid '77 Premium Navy</a>
+                            <p class = "price">RM 489</p>
+                        </div>
+                    </div>
+                    <!-- end8 -->
+
+                    <!-- 5 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/AF1(5).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Force 1 Grey/Navy</a>
+                            <p class = "price">RM 329<p>
+                        </div>
+                    </div>
+                    <!-- end5 -->
+
+                    <!-- 10 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Product(19).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Kids</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Woven Tracksuit</a>
+                            <p class = "price">RM 165</p>
+                        </div>
+                    </div>
+                    <!-- end10 -->
+
+                    <!-- 5 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(5).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Pegasus Trail 3</a>
+                            <p class = "price">RM 549</p>
+                        </div>
+                    </div>
+                    <!-- end5 -->
+
+                    <!-- 1 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/AF1(1).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Force 1 Full White</a>
+                            <p class = "price">RM 369<p>
+                        </div>
+                    </div>
+                    <!-- end1 -->
+
+                    <!-- 17 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Promo(17).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-half-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Dri-FIT Graphic Fitness Shorts</a>
+                            <p class = "price-before">RM 145</p>
+                            <p class = "price">RM 119</p>
+                        </div>
+
+                        <div class = "off-info">
+                            <h2 class = "sm-title">17% off</h2>
+                        </div>
+                    </div>
+                    <!-- end17 -->
+
+                    <!-- 14 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Product(20).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Sunflower Hoodie</a>
+                            <p class = "price">RM 335</p>
+                        </div>
+                    </div>
+                    <!-- end14 -->
+
+                    <!-- 3 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Promo(3).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Blazer Mid '77 SE Dance</a>
+                            <p class = "price-before">RM 329</p>
+                            <p class = "price">RM 199</p>
+                        </div>
+
+                        <div class = "off-info">
+                            <h2 class = "sm-title">39% off</h2>
+                        </div>
+                    </div>
+                    <!-- end3 -->
+
+                    <!-- 15 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/AF1(15).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Force 1 Grey/White</a>
+                            <p class = "price">RM 559<p>
+                        </div>
+                    </div>
+                    <!-- end15 -->
+
+                    <!-- 6 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Blazers(6).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">x ACRONYM® Blazer Low Black</a>
+                            <p class = "price">RM 369</p>
+                        </div>
+                    </div>
+                    <!-- end6 -->
+
+                    <!-- 4 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Pegasus(4).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Men</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">React Pegasus GORE-TEX</a>
+                            <p class = "price">RM 709</p>
+                        </div>
+                    </div>
+                    <!-- end4 -->
+
+                    <!-- 4 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Product(21).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Kids</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">Air Crop Hoodie</a>
+                            <p class = "price">RM 225</p>
+                        </div>
+                    </div>
+                    <!-- end4 -->
+
+                    <!-- 4 -->
+                    <div class = "product">
+                        <div class = "product-content">
+                            <div class = "product-image">
+                                <img src = "Images/Blazers(4).png" class = "product-img">
+                            </div>
+                        </div>
+
+                        <img src="Images/cart.png" class="add-cart">
+
+                        <div class = "product-info">
+                            <div class = "product-info-top">
+                                <h2 class = "sm-title">Women</h2>
+                                <div class = "rating">
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star"></i></span>
+                                    <span><i class = "fa fa-star-o"></i></span>
+                                </div>
+                            </div>
+                            <a class = "product-title">x ACRONYM® Blazer Low Red</a>
+                            <p class = "price">RM 369</p>
+                        </div>
+                    </div>
+                    <!-- end4 -->
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <ul>
+                <li><a href="Product3.html"><i class="fa fa-chevron-circle-left"></i></a></li>
+                <li><a href="Product1.html">1</a></li>
+                <li><a href="Product2.html">2</a></li>
+                <li><a href="Product3.html">3</a></li>
+                <li><a href="Product4.html" style="color: #f95c0e;">4</a></li>
+                <li><a href="Product5.html">5</a></li>
+                <li><a href="Product5.html"><i class="fa fa-chevron-circle-right"></i></a></li>
+            </ul>
+        </div>
+
+        <div class = "product-category">
+            <h2>Shop By Favourites :</h2>
+            <div class = "container">
+                <div class = "product-category-wrapper">
+                    <!-- product col left -->
+                    <div class = "product-col-a flex">
+                        <div class = "product-col-content">
+                            <a href="AF1.html" class = "btn-dark">Air Force 1</a>
+                        </div>
+                    </div>
+
+                    <!-- product col middle -->
+                    
+                    <div class = "product-col-b flex">
+                        <div class = "product-col-content">
+                            <a href="Blazer.html" class = "btn-dark">Blazer</a>
+                        </div>
+                    </div>
+
+                    <!-- product col right -->
+                    <div class = "product-col-p flex">
+                        <div class = "product-col-content">
+                            <a href="Pegasus.html" class = "btn-dark">Pegasus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Link js-->
+        <script src="cart.js"></script>
+
+    </body>
+</html>
+
+<!------JavaScript for Toggle Menu------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>

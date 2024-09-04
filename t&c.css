@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sarabun', serif;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    padding-bottom: 15px;
+    color: #f95c0e;
+    font-size: 37px
+}
+img{
+    padding-top: 15px;
+    width: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+h3{
+    font-size: 15px;
+}
+.terms{
+    padding: 0 10%;
+    text-align: justify;    
+}
+.tq{
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    padding-bottom: 30px;
+    color: #f95c0e;
+    font-weight: bold;
+}
+ul{
+    padding: 0 5%;
+}
